@@ -57,11 +57,11 @@ class FanDuelHockeySettings(FanDuelSettings):
         LineupPosition('C', ('C', )),
         LineupPosition('W', ('W', )),
         LineupPosition('W', ('W', )),
-        LineupPosition('W', ('W', )),
-        LineupPosition('W', ('W', )),
         LineupPosition('D', ('D', )),
         LineupPosition('D', ('D', )),
         LineupPosition('G', ('G', )),
+        LineupPosition('UTIL', ('W', 'C', 'D')),
+        LineupPosition('UTIL', ('W', 'C', 'D'))
     ]
 
 
@@ -132,8 +132,8 @@ class FanDuelLOLSettings(FanDuelSettings):
         LineupPosition('SUP', ('SUP',)),
         LineupPosition('TEAM', ('TEAM',)),
     ]
-    
-    
+
+
 @SitesRegistry.register_settings
 class FanDuelNascarSettings(FanDuelSettings):
     sport = Sport.NASCAR
@@ -166,4 +166,3 @@ class FanDuelMMASettings(FanDuelSettings):
         LineupPosition('F', ('F', )),
         LineupPosition('F', ('F', )),
     ]
-

@@ -2,9 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
-## [v3.3.1]
+## [v3.4.2]
+- Fix positions constraint for multi positions
 
-- Update FanDuel Hockey Classic positings for 2021 format change
+## [v3.4.1]
+- Fix FanDuel NHL settings
+- Fix DK late-swap export
+
+## [v3.4.0]
+- Fix PULP version
+- Add DK NHL Captain Mode
+- Add DK NFL Tiers
+- Add failed rules to generate error message
+- Extend optimize_lineups method
 
 ## [v3.3.0]
 

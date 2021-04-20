@@ -17,9 +17,8 @@ All notable changes to this project will be documented in this file.
 - Extend optimize_lineups method
 
 ## [v3.3.0]
-
 - Added ability to print statistic after optimization run
-- Added cyclic spacing handling for set_spacing_for_positions method
+- Added cyclic spacing handling for set_spacing_for_positions method 
 - Added ability to change algorithm for exposure calculation
 - Added min games rule for DK optimizers
 - Added DK CSGO
@@ -31,7 +30,6 @@ All notable changes to this project will be documented in this file.
 - Fixed restrict from opposing team method with max_allowed parameter
 
 ## [v3.2.0]
-
 - Added randomize with projections range
 - Added max allowed parameter for restrict positions from opposing team
 - Fixed team stacking with spacing
@@ -41,20 +39,16 @@ All notable changes to this project will be documented in this file.
 - Fixed FD NFL positions names
 
 ## [v3.1.1]
-
 - Fixed position names and ordering for FanDuel LOL classic
 
 ## [v3.1.0]
-
 - Added LOL for FanDuel
 - Fixed FanDuel Single Game incorrect lineups
 
 ## [v3.0.1]
-
 - Fixed paring teams in DK
 
 ## [v3.0.0]
-
 - Added new stacking api
 - Fixed min exposure
 - Added FanDuel NBA Single Game
@@ -67,7 +61,6 @@ All notable changes to this project will be documented in this file.
 - Added python 3.8 support
 
 ## [v2.7.0]
-
 - Added rule for restricting players from same team
 - Added ability to specify several positions in stack
 - Added FanDuel Golf
@@ -82,17 +75,14 @@ All notable changes to this project will be documented in this file.
 - Fixed Yahoo Hockey settings positions
 
 ## [v2.6.2]
-
 - Fixed python 2.7 support
 
 ## [v2.6.1]
-
 - Added soccer for DK Captain Mode
 - Added Fanduel minimum teams restriction
 - Fixed export for DK
 
 ## [v2.6.0]
-
 - Added ability to specify multiple positions stacks in positions for same team rule
 - Added teams exposure rule
 - Added ability to create stacks for specific positions
@@ -102,12 +92,10 @@ All notable changes to this project will be documented in this file.
 - Decreased number of created solver constraints for exposures rules
 
 ## [v2.5.1]
-
 - Fixed optimization for roster spacing rule
 - Fixed repeated lineups issue when optimizing in random mode
 
 ## [v2.5.0]
-
 - Added lineup ordering rule
 - Added DK NASCAR
 - Added DK Tennis
@@ -122,11 +110,9 @@ All notable changes to this project will be documented in this file.
 - Improved performance for sports without multi-positional players
 
 ## [v2.4.1]
-
 - Fixed solver freezes on windows
 
 ## [v2.4.0]
-
 - Added DK MLB captain mode
 - Added teams stacking
 - Added constraint for restricting players from opposing teams
@@ -136,7 +122,6 @@ All notable changes to this project will be documented in this file.
 - Added ability to change solver in PuLP
 
 ## [v2.3.0]
-
 - Added DK late-swap
 - Added DK MMA
 - Fixed DK LOL settings
@@ -144,11 +129,9 @@ All notable changes to this project will be documented in this file.
 - Fixed DK captain mode settings
 
 ## [v2.2.1]
-
 - Fixed import error for optimizer running on python 3.6
 
 ## [v2.2.0]
-
 - Added DK captain mode
 - Added minimum exposure
 - Improved normal objective optimization
@@ -156,40 +139,32 @@ All notable changes to this project will be documented in this file.
 - Fixed DK LOL settings
 
 ## [v2.1.0]
-
 - Added projected ownership feature
 - Added FanBall football
 - Fixed FanDuel MLB max player from one team constraint
 
 ## [v2.0.3]
-
 - Fixed FanDuel nfl settings
 
 ## [v2.0.2]
-
 - Fixed FanDuel mlb settings
 
 ## [v2.0.0]
-
 - Added custom constraints creation
 - Optimized lineup generation speed
 - Added max repeating players constraint
 - Added new sports
 
 ## [v1.4.1]
-
 - Changed settings for DraftKings
 
 ## [v1.4]
-
 - Added min salary constraint.
 
 ## [v1.3]
-
 - Fixed bug with setting lineup positions
 
 ## [v1.2]
-
 - Added csv export
 - Added constraints for positions in same team
 - Changed constraint setting interface
